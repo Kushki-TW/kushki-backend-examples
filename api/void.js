@@ -18,9 +18,9 @@ const handler = async (req, res) => {
         subtotalIva0: amount,
         iva: 0,
         ice: 0,
-        currency: 'USD',
+        currency: 'MXN',
       },
-      fullResponse: true
+      fullResponse: "v2"
     })
     .then((response) => {
       console.log(response.data);
