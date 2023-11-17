@@ -21,9 +21,9 @@ const handler = async (req, res) => {
         subtotalIva0: amount,
         ice: 0,
         iva: 0,
-        currency: "USD"
+        currency: "MXN"
       },
-      fullResponse: true
+      fullResponse: "v2"
     })
     .then((response) => {
       // Your own logic here...
