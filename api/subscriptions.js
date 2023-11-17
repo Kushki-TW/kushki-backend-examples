@@ -28,7 +28,7 @@ const handler = async (req, res) => {
         subtotalIva0: amount,
         ice: 0,
         iva: 0,
-        currency: "USD"
+        currency: "MXN"
       },
       startDate: today.toISOString().substring(0, 10),
       periodicity: 'monthly',
