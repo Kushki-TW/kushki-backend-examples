@@ -1,3 +1,3 @@
 # Kushki Backend examples
 
-TODO: Readme 😅
+TODO: Readme 
